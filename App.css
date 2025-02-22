@@ -1,0 +1,35 @@
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  flex-direction: column;
+}
+.ipt{
+  outline: none;
+  border: none;
+  font-size: 32px;
+  padding:2px 10px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color:black;
+  color:white;
+  height:90px;
+  width:300px;
+  justify-content: center;
+  text-align: right;
+}
+
+button{
+  width:25%;
+  height:85px;
+  font-size:26px;
+  cursor:pointer;
+  border:none;
+  border-top:1px solid rgb(188, 181, 181);
+  border-right: 1px solid rgb(201, 191, 191);
+}
+
+.operator{
+  border-right:none;
+}
